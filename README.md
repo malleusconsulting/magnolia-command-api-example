@@ -1,7 +1,7 @@
 # magnolia-command-api-example
 An example of the Magnolia CMS Command API returning a detailed response.
 
-For an example, build the module and install with sample content bootstrapped.  
+For an example, build the module and install.  
 **NB**: Read the [Magnolia documentation](https://documentation.magnolia-cms.com/display/DOCS/REST+API#RESTAPI-Enablingcommands "Enabling commands") on granting access to the Commands endpoint. This module will not enable access on installation.  
 
 The Magnolia documentation is lacking information on how to obtain a response beyond a simple Boolean indicating success. This document explains how this is, in fact, supported via configuration.
@@ -30,7 +30,7 @@ When adding a command to the endpoint's list of enabled commands, an additional 
 ```
 
 This appears in the Config tree as:
-![Configuration of contextParameters](https://github.com/malleusconsulting/magnolia-command-api-example/blob/gh_pages/contextParameters.png?raw=true)
+<img src="https://github.com/malleusconsulting/magnolia-command-api-example/blob/gh_pages/contextParameters.png?raw=true" width="450" height="216" title="Configuration of contextParameters" />
 
 The command's execute method sets these context parameters and then returns a Boolean as normal:
 ```Java
