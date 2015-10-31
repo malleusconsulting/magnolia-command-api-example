@@ -30,7 +30,7 @@ When adding a command to the endpoint's list of enabled commands, an additional 
 ```
 
 This appears in the Config tree as:  
-<img src="https://github.com/malleusconsulting/magnolia-command-api-example/blob/gh_pages/contextParameters.png?raw=true" width="450" height="216" title="Configuration of contextParameters" />
+<img src="https://github.com/malleusconsulting/magnolia-command-api-example/blob/gh_pages/contextParameters.png?raw=true" width="448" height="217" title="Configuration of contextParameters" />
 
 The command's execute method sets these context parameters and then returns a Boolean as normal:
 ```Java
