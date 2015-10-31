@@ -29,7 +29,7 @@ When adding a command to the endpoint's list of enabled commands, an additional 
   </sv:node>
 ```
 
-This appears in the Config tree as:
+This appears in the Config tree as:  
 <img src="https://github.com/malleusconsulting/magnolia-command-api-example/blob/gh_pages/contextParameters.png?raw=true" width="450" height="216" title="Configuration of contextParameters" />
 
 The command's execute method sets these context parameters and then returns a Boolean as normal:
@@ -50,6 +50,5 @@ commandsManager.executeCommand(command, commandMap);
  }
 ```
 
-And thus the parameters appear in the service response:
-
-![JSON response](https://raw.githubusercontent.com/malleusconsulting/magnolia-command-api-example/gh_pages/response.png)
+And thus the parameters appear in the service response:  
+<img src="https://raw.githubusercontent.com/malleusconsulting/magnolia-command-api-example/gh_pages/response.png" width="602" height="329" title="JSON response" />
